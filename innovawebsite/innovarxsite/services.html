@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Neighborhood Community Pharmacy</title>
+    <style>
+        :root {
+            --primary-blue: #0056b3;
+            --light-bg: #f8f9fa;
+            --text-dark: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            margin: 0;
+            padding: 0;
+            background-color: #fff;
+        }
+
+        header {
+            background-color: var(--primary-blue);
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .service-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .service-card {
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1.5rem;
+            transition: transform 0.2s;
+            background-color: var(--light-bg);
+        }
+
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .service-card h3 {
+            color: var(--primary-blue);
+            margin-top: 0;
+        }
+
+        .tag {
+            display: inline-block;
+            background: #e1ecf4;
+            color: #39739d;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.85rem;
+            font-weight: bold;
+            margin-bottom: 0.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            background: #eee;
+            margin-top: 3rem;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Neighborhood Pharmacy</h1>
+    <p>Your Health, Our Priority</p>
+</header>
+
+<div class="container">
+    <h2>Our Professional Services</h2>
+    <p>Beyond filling prescriptions, we offer a range of clinical services to support your wellness journey.</p>
+    
+    <div class="service-grid">
+        <div class="service-card">
+            <span class="tag">Essential</span>
+            <h3>Prescription Fulfillment</h3>
+            <p>Fast and accurate dispensing of your medications. We offer automatic refills and easy transfers from other pharmacies.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="tag">Preventative</span>
+            <h3>Immunizations & Vaccines</h3>
+            <p>Stay protected with flu shots, COVID-19 boosters, shingles vaccines, and travel immunizations administered by certified pharmacists.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="tag">Clinical</span>
+            <h3>Medication Therapy Management (MTM)</h3>
+            <p>Sit down with a pharmacist for a one-on-one review of your medications to ensure safety, effectiveness, and to minimize side effects.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="tag">Wellness</span>
+            <h3>Health Screenings</h3>
+            <p>We provide quick screenings for blood pressure, blood glucose, and cholesterol levels to help you monitor your chronic conditions.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="tag">Convenience</span>
+            <h3>Medication Synchronization</h3>
+            <p>We can coordinate all your monthly prescriptions so they are ready for pickup on a single, convenient day each month.</p>
+        </div>
+
+        <div class="service-card">
+            <span class="tag">Specialty</span>
+            <h3>Custom Compounding</h3>
+            <p>For patients with unique needs, we can prepare customized medication forms, flavors, or dosages that aren't available commercially.</p>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2026 Neighborhood Community Pharmacy. Open Daily 9AM - 7PM.</p>
+</footer>
+
+</body>
+</html>
